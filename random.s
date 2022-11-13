@@ -42,7 +42,7 @@ generate:
 	sub	eax, ecx
 	mov	edx, eax
 	mov	eax, edx
-	lea	ecx, 32[rax]
+	lea	ecx, 33[rax]
 	mov	eax, DWORD PTR -4[rbp]
 	movsx	rdx, eax
 	mov	rax, QWORD PTR -24[rbp]
